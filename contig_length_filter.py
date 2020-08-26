@@ -37,7 +37,7 @@ for record in my_seq:
 
 
 SeqIO.write(longer_contigs, ("filtered_" + input_file), "fasta" )
-print("Contigs removed = ")
-print(filter_counter)
+print(f'{filter_counter} contigs removed')
+
         
 
